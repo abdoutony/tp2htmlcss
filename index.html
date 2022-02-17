@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Tp2</title>
+  </head>
+  <body>
+    <section id="containerGlobal">
+      <header class="header">
+        <aside class="logoContainer">
+          <img
+            src="./images/fakelogo.jpg"
+            width="50"
+            height="50"
+            alt="this is my fake logo"
+          />
+        </aside>
+        <article class="navigationContainer">
+          <nav class="navigationMenu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#aboutSection">About</a></li>
+              <li><a href="#workSection">Work</a></li>
+              <li><a href="#resumeSection">Resume</a></li>
+              <li><a href="#contactSection">contact</a></li>
+            </ul>
+          </nav>
+        </article>
+      </header>
+
+      <main>
+        <section id="aboutSection">
+          <h2>About Me</h2>
+          <figure>
+            <img
+              src="./images/abdoupicdevfest.jpg"
+              width="200"
+              height="200"
+              alt="myimage"
+            />
+            <figcaption>This is a piture of me</figcaption>
+          </figure>
+
+          <h3>Abdelakder Lounis</h3>
+          <p>
+            Velit et pariatur in duis amet pariatur sit duis anim cupidatat
+            aliquip Lorem non excepteur. Non excepteur nulla eiusmod in
+            consectetur ea est ad sit veniam labore qui. Officia occaecat non
+            anim ex est. Nulla dolore consectetur reprehenderit aliquip.
+          </p>
+          <a
+            href="https://linkedin.com/in/abdelkader-lounis
+        "
+            target="_blank"
+            >Visit my linked in</a
+          >
+        </section>
+
+        <section id="workSection">
+          <h2>My work</h2>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Project Title</th>
+                <th>Project Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lounis</td>
+                <td>Abdelkader</td>
+                <td>
+                  Enim deserunt amet qui officia labore deserunt amet duis.
+                </td>
+                <td>
+                  Deserunt non officia Lorem eiusmod ipsum incididunt quis
+                  irure. Anim officia mollit ad ad. Non nisi duis culpa sunt in
+                  anim proident cupidatat labore voluptate eu velit laboris
+                  eiusmod. Cillum cillum esse sit ad id laborum commodo tempor
+                  veniam eu nostrud.
+                </td>
+              </tr>
+
+              <tr>
+                <td>Lounis</td>
+                <td>Abdelkader</td>
+                <td>
+                  Enim deserunt amet qui officia labore deserunt amet duis.
+                </td>
+                <td>
+                  Deserunt non officia Lorem eiusmod ipsum incididunt quis
+                  irure. Anim officia mollit ad ad. Non nisi duis culpa sunt in
+                  anim proident cupidatat labore voluptate eu velit laboris
+                  eiusmod. Cillum cillum esse sit ad id laborum commodo tempor
+                  veniam eu nostrud.
+                </td>
+              </tr>
+
+              <tr>
+                <td>Lounis</td>
+                <td>Abdelkader</td>
+                <td>
+                  Enim deserunt amet qui officia labore deserunt amet duis.
+                </td>
+                <td>
+                  Deserunt non officia Lorem eiusmod ipsum incididunt quis
+                  irure. Anim officia mollit ad ad. Non nisi duis culpa sunt in
+                  anim proident cupidatat labore voluptate eu velit laboris
+                  eiusmod. Cillum cillum esse sit ad id laborum commodo tempor
+                  veniam eu nostrud.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="resumeSection">
+          <aside>
+            <h2>My Resume</h2>
+            <video
+              controls
+              width="200"
+              poster="./images/abdoupicdevfest.jpg"
+              height="200"
+            >
+              <source
+                src="C:\Users\ACER ASPIRE\Downloads\DT.mp4"
+                type="video/mp4"
+              />
+              <source
+                src="C:\Users\ACER ASPIRE\Downloads\DT.ogg"
+                type="video/ogg"
+              />
+              Your browser doesnt support video tag
+            </video>
+          </aside>
+
+          <article>
+            <p>I know many skills</p>
+            <dl>
+              <dt><b>HTML</b></dt>
+              <dd>I use html to structure the page</dd>
+              <dt><b>CSS</b></dt>
+              <dd>I use CSS to give my page style rules</dd>
+              <dt><b>JavaScript</b></dt>
+              <dd>
+                I use JavaScript to manipulate dynamic interatctions in my web
+                page
+              </dd>
+            </dl>
+          </article>
+        </section>
+
+        <section id="contactSection">
+          <h2>Contact:</h2>
+          <fieldset>
+            <legend>Fill this form to contact me</legend>
+            <form>
+              <label>Name:</label><br />
+              <input
+                type="text"
+                name="name"
+                class="formControl"
+                placeholder="enter your name here"
+              />
+              <br /><br />
+              <label>Email:</label><br />
+              <input
+                type="email"
+                class="formControl"
+                placeholder="enter your email here"
+              />
+              <br /><br />
+              <label>Project type:</label>
+              <input type="radio" id="ecom" name="projecttype" />
+              <span>Ecommerce</span>
+              <input type="radio" id="elearn" name="projecttype" />
+              <span>Elearning</span>
+
+              <input type="radio" id="blog" name="projecttype" />
+              <span>Blog</span>
+              <br /><br />
+              <label>Message:</label><br />
+              <textarea class="formControl" rows="20"></textarea>
+              <br /><br />
+              <button type="reset">Reset form</button>
+              <button type="submit" class="sendFormButton">Send form</button>
+            </form>
+          </fieldset>
+        </section>
+      </main>
+      <br /><br />
+
+      <footer>
+        <center>
+          <h1>You can find me on social media</h1>
+          <a href="#">
+            <img
+              src="./images/icons/facebook.svg"
+              width="50"
+              height="50"
+              alt="social media icon"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./images/icons/instagram.svg"
+              width="50"
+              height="50"
+              alt="social media icon"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./images/icons/twitter.svg"
+              width="50"
+              height="50"
+              alt="social media icon"
+            />
+          </a>
+        </center>
+      </footer>
+    </section>
+  </body>
+</html>

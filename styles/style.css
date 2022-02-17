@@ -1,0 +1,162 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#containerGlobal {
+  /*position: relative;
+  top: -35px;*/
+}
+.header {
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.header .logoContainer,
+.navigationContainer {
+  display: inline-block;
+}
+
+.header .logoContainer img {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.header .navigationContainer .navigationMenu ul {
+  list-style-type: none;
+  position: relative;
+  top: -10px;
+}
+
+.header .navigationContainer .navigationMenu ul li {
+  display: inline;
+  margin: 0px 15px;
+}
+
+.header .navigationContainer .navigationMenu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .navigationContainer .navigationMenu ul li a:hover {
+  color: tomato;
+}
+
+
+#aboutSection,
+#workSection {
+  padding: 0 120px;
+  text-align: center;
+}
+
+#resumeSection,
+#contactSection {
+  padding: 0 120px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+#aboutSection figure img {
+  border-radius: 50%;
+}
+
+#aboutSection p {
+  width: 60%;
+  margin-left: 220px;
+  margin-bottom: 25px;
+}
+
+#aboutSection a {
+  background-color: tomato;
+  padding: 15px;
+  color: #ffff;
+  text-decoration: none;
+}
+#aboutSection a:hover {
+  background-color: #000;
+}
+
+#aboutSection a:active {
+  background-color: gold;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: #ccc;
+}
+
+table tbody td {
+  padding: 10px;
+}
+
+table tbody tr:hover {
+  background-color: rgba(204, 204, 204, 0.575);
+}
+
+#resumeSection aside h2 {
+  margin-bottom: 0;
+}
+
+#resumeSection aside,
+article {
+  display: inline-block;
+}
+
+#resumeSection article p {
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+fieldset form label {
+  font-weight: bold;
+}
+
+.formControl {
+  width: 98%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+button.sendFormButton {
+  background-color: tomato;
+}
+
+footer {
+  background: #222;
+  padding: 15px;
+}
+
+footer h1 {
+  color: #fff;
+}
